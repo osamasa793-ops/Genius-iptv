@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Genius IPTV</string>
+    <string name="channels">القنوات</string>
+    <string name="movies">الأفلام</string>
+    <string name="series">المسلسلات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="login">دخول</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="activation_code">كود التفعيل</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="sign_in">تسجيل دخول</string>
+    <string name="loading">جاري التحميل...</string>
+</resources>
