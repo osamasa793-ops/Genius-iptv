@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="channel_categories">
+        <item>الكل</item>
+        <item>رياضة</item>
+        <item>أخبار</item>
+        <item>أطفال</item>
+        <item>أردني</item>
+        <item>سوري</item>
+        <item>خليجي</item>
+    </string-array>
+    <string-array name="series_categories">
+        <item>الكل</item>
+        <item>تركي</item>
+        <item>مصري</item>
+        <item>خليجي</item>
+        <item>سوري</item>
+        <item>أجنبي</item>
+    </string-array>
+</resources>

@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical"
     android:background="@color/black"
-    tools:context=".ui.MoviesActivity">
+    tools:context=".ui.ChannelsListActivity">
 
     <!-- الرأس -->
     <LinearLayout
@@ -29,28 +29,28 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="الأفلام"
+            android:text="القنوات"
             android:textColor="@color/white"
             android:textSize="24sp"
             android:textStyle="bold"
             android:layout_marginStart="16dp" />
     </LinearLayout>
 
-    <!-- شريط البحث -->
-    <androidx.appcompat.widget.SearchView
-        android:id="@+id/searchInput"
+    <!-- فلتر التصنيفات -->
+    <Spinner
+        android:id="@+id/categorySpinner"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="12dp"
-        app:queryHint="ابحث عن فيلم..."
-        android:background="@color/dark_gray" />
+        android:background="@color/dark_gray"
+        android:entries="@array/channel_categories" />
 
-    <!-- قائمة الأفلام -->
+    <!-- قائمة القنوات -->
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/moviesRecyclerView"
+        android:id="@+id/channelsRecyclerView"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="8dp"
-        tools:listitem="@layout/item_movie" />
+        tools:listitem="@layout/item_channel" />
 
 </LinearLayout>
