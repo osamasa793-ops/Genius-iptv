@@ -1,0 +1,40 @@
+{
+  "version": "1.0.0",
+  "servers": [
+    {
+      "url": "http://localhost:5000/api",
+      "description": "Development server"
+    }
+  ],
+  "endpoints": {
+    "channels": {
+      "GET /channels": "الحصول على جميع القنوات",
+      "GET /channels/:id": "الحصول على قناة واحدة",
+      "POST /channels": "إضافة قناة جديدة",
+      "PUT /channels/:id": "تحديث قناة",
+      "DELETE /channels/:id": "حذف قناة"
+    },
+    "movies": {
+      "GET /movies": "الحصول على جميع الأفلام",
+      "GET /movies/:id": "الحصول على فيلم واحد",
+      "POST /movies": "إضافة فيلم جديد",
+      "PUT /movies/:id": "تحديث فيلم",
+      "DELETE /movies/:id": "حذف فيلم"
+    },
+    "series": {
+      "GET /series": "الحصول على جميع المسلسلات",
+      "GET /series/:id": "الحصول على مسلسل واحد",
+      "POST /series": "إضافة مسلسل جديد",
+      "PUT /series/:id": "تحديث مسلسل",
+      "DELETE /series/:id": "حذف مسلسل"
+    },
+    "users": {
+      "GET /users/:code": "التحقق من كود التفعيل",
+      "POST /users": "إضافة مستخدم جديد"
+    },
+    "admin": {
+      "POST /admin/login": "تسجيل دخول الإدمن",
+      "POST /admin/verify-token": "التحقق من صحة التوكن"
+    }
+  }
+}
