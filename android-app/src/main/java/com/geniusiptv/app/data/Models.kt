@@ -46,7 +46,7 @@ data class Episode(
 )
 
 data class AdminCredentials(
-    val username: String = "Osama1989",
+    val username: String = "Osama1980",
     val password: String = "Miramaya2026",
     val accessToken: String? = null
 )
